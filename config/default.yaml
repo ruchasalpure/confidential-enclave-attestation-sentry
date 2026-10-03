@@ -1,6 +1,0 @@
-app:
-  name: "confidential-enclave-attestation-sentry"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"

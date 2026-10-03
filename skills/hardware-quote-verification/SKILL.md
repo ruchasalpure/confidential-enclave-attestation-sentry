@@ -1,17 +1,25 @@
 ---
-name: "hardware-quote-verification"
-description: "Validates TCB measurement hashes and PKI certificate chains against hardware manufacturer root certs"
-version: "1.0.0"
-category: "cybersecurity"
+name: hardware-quote-verification
+description: Specialized capability for Confidential Enclave Attestation Sentry.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: cybersecurity
 ---
 
-# Skill: hardware-quote-verification
+# Confidential Enclave Attestation Sentry — HARDWARE QUOTE VERIFICATION Skill
 
-## Overview
-Validates TCB measurement hashes and PKI certificate chains against hardware manufacturer root certs.
+## Purpose
+The `hardware-quote-verification` capability provides high-assurance execution routines for `Confidential Enclave Attestation Sentry`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.
