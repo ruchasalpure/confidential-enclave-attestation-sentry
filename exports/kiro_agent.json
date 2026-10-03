@@ -1,0 +1,5 @@
+{
+  "name": "confidential-enclave-attestation-sentry",
+  "service": "aws-kiro",
+  "version": "1.0.0"
+}

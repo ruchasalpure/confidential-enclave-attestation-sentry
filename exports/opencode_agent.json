@@ -1,0 +1,8 @@
+{
+  "agent_id": "confidential-enclave-attestation-sentry",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}
